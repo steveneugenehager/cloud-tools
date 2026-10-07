@@ -1,0 +1,107 @@
+Phil|DeForm|CloudOps|gcp-logging-admins|
+Justin|Time|CloudOps|gcp-logging-viewers|
+Wanda|Raise|CloudOps|gcp-monitoring-admins|
+Linda|Goldman|finance|gcp-billing-admins|
+JP|Morgan|finance|gcp-billing-viewers|
+Ty|Sachs|finance|gcp-billing-viewers|
+Diana|Nephele||gcp-organization-admins|
+Terry|Form|provisions everything as code|gcp-organization-admins|
+Ann|Sible|handles configuration across every server|gcp-organization-admins|
+Otto|Scale|shows up whenever traffic spikes|gcp-organization-admins|
+Lowe|Balancer|spreads the work evenly|gcp-organization-admins|
+Doc|Kerr|puts everything in containers|gcp-organization-admins|
+Kate|Ess|runs the Kubernetes clusters (K8s, pronounced "Kates")|gcp-organization-admins|
+Buck|Etts|in charge of S3 storage|gcp-organization-admins|
+Sir|Vurless|insists there are no servers, somehow|gcp-organization-admins|
+Ty|Mout|never responds in time|gcp-organization-admins|
+Bill|Shock|the one who forgot to set a budget alert|gcp-organization-admins|
+Stormy|Weathers|on call during every outage|gcp-organization-admins|
+Claude|Cover|a cloud admin, technically|gcp-organization-admins|
+Bobby|Tables|Security|gcp-security-admins|
+Mary|Falcon||gcp-security-admins|
+Emily|Orion||gcp-security-admins|
+Pam|Mcafee||gcp-security-admins|
+DR|Norton||gcp-security-admins|
+Vladimir|Kaspersky||gcp-security-admins|
+Dean|Ess|the answer to every outage, somehow|gcp-network-admins|
+Rudy|Ter|decides where everything goes|gcp-network-admins|
+Ethan|Net|old school, hardwired|gcp-network-admins|
+Brandon|Width|never has enough of himself|gcp-network-admins|
+Pat|Kett|sometimes just doesn't arrive|gcp-network-admins|
+Lat|See|always responds, eventually|gcp-network-admins|
+Tracy|Route|tracks you through every hop|gcp-network-admins|
+Porter|Forward|opens doors for the right people|gcp-network-admins|
+Lisa|Renewal|hands out addresses on a temporary basis|gcp-network-admins|
+Netty|Mask|decides who's in the neighborhood|gcp-network-admins|
+Dee|Fault|the gateway everyone goes through|gcp-network-admins|
+Fyre|Wahl|blocks everything, asks questions later|gcp-network-admins|
+Max|Hop|gives up after a while|gcp-network-admins|
+Scott|Tiger|Database Services||
+Cecil|Query|speaks fluent SQL (Database Services)||
+Norm|Alize|insists every table be in third normal form (Database Services)||
+Ina|Join|only cares about matching rows (Database Services)||
+Leif|Join|keeps everything, even the nulls (Database Services)||
+Mary|Key|unique, never null (Database Services)||
+Noel|Value|nobody knows what he's worth (Database Services)||
+Rose|Count|always knows how many records there are (Database Services)||
+Rolf|Back|undoes everyone else's mistakes (Database Services)||
+Ted|Lock|waiting on someone who's waiting on him (Database Services)||
+Paige|Split|complains about fragmented indexes (Database Services)||
+Kurt|Sorr|does things one row at a time, very slowly (Database Services)||
+Bach|Upp|the one everyone thanks after the outage (Database Services)||
+Jane|Coder|DevOps||
+Al|Gorithm|the classic (DevOps)||
+Stacy|Overflow|knows the answer, copied it from somewhere (DevOps)||
+Rick|Ursion|keeps calling himself until someone stops him (DevOps)||
+Marge|Conflict|shows up whenever two people edit the same file (DevOps)||
+Dee|Bugger|steps through your code line by line (DevOps)||
+Sue|Do|has root on everything (DevOps)||
+Jason|Parser|handles all the data formats (DevOps)||
+Ruby|Rails|a web developer, naturally (DevOps)||
+Devon|Ops|runs the deployment pipeline (DevOps)||
+Bill|Ding|always waiting on a compile (DevOps)||
+Lou|Ping|never quite finishes (DevOps)||
+Monty|Looper|(DevOps)||
+Joe|Consumer|Business Analyst||
+Jane|Doe|Business Analyst||
+Max|Profit|Business Analyst||
+Penny|Pincher|Business Analyst||
+Rich|Margins|Business Analyst||
+Bill|Able|Business Analyst||
+Holly|Day|Business Analyst||
+Sal|Ary|Business Analyst||
+Mona|Tize|Business Analyst||
+Rita|Port|Business Analyst||
+Flo|Cash|Business Analyst||
+Paige|Turner|Business Analyst||
+Mark|Etting|Business Analyst||
+Cy|Nergy|Business Analyst||
+Dale|Gate|Business Analyst||
+Mike|Romanage|Business Analyst||
+Rhoda|Map|Business Analyst||
+Dee|Liverable|Business Analyst||
+Bud|Jet|Business Analyst||
+Stacy|Holder|Business Analyst||
+Al|Hands|Business Analyst||
+Ty|Mline|Business Analyst||
+Lee|Verage|Business Analyst||
+Ben|Chmark|Business Analyst||
+Drew|Down|Business Analyst||
+Cyril|Back|Business Analyst||
+Pat|Onback|Business Analyst||
+Otto|Reply|Business Analyst||
+Cal|Endar|Business Analyst||
+Mac|Ro|Business Analyst||
+Iva|Deadline|Business Analyst||
+Dawn|Sizing|Business Analyst||
+Ken|Sensus|Business Analyst||
+Hugh|Mann|Business Analyst||
+Mal|Content|Business Analyst||
+Mo|Mentum|Business Analyst||
+Will|Power|Business Analyst||
+Matt|Rix|Business Analyst||
+Gene|Ralledger|Business Analyst||
+Ava|Labelle|Business Analyst||
+Carrie|Over|Business Analyst||
+Lou|Pin|Business Analyst||
+Rob|Ust|Business Analyst||
