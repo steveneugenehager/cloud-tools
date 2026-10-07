@@ -3,19 +3,27 @@
 
 Expected format for each non-blank line (trailing pipe required):
 
-    first|last|description|group|
+    first|last|description|groups|
+
+The groups field holds zero or more group names, comma-separated with
+no spaces, e.g. gcp-logging-viewers,gcp-monitoring-admins
 
 Errors (cause a nonzero exit code):
   - wrong number of fields or missing trailing pipe
   - empty first or last name
   - leading/trailing whitespace in any field
-  - group not in the allowed set (when a group is given)
+  - a group not in the allowed set
+  - an empty entry, stray whitespace, or a repeated group in the group list
   - duplicate first+last name
 
 Warnings (reported, but don't fail validation):
   - empty description
   - empty group
   - unbalanced parentheses in the description
+
+Change History
+2026-10-06 Steve Hager v1.0 Created to validate some hand-crafted synthetic data.
+2026-10-06 Steve Hager v1.1 Allow a comma-separated list of groups in the fourth field.
 """
 
 import argparse
@@ -66,11 +74,21 @@ def validate_line(line: str, allowed_groups: set[str]) -> tuple[list[str], list[
     if not last:
         errors.append("last name is empty")
 
-    group = record["group"].strip()
-    if not group:
+    group_field = record["group"].strip()
+    if not group_field:
         warnings.append("group is empty")
-    elif group not in allowed_groups:
-        errors.append(f"unknown group: {group!r}")
+    else:
+        seen_groups: set[str] = set()
+        for group in group_field.split(","):
+            if not group:
+                errors.append(f"empty entry in group list: {group_field!r}")
+            elif group != group.strip():
+                errors.append(f"whitespace around group name: {group!r}")
+            elif group in seen_groups:
+                errors.append(f"group listed more than once: {group!r}")
+            elif group not in allowed_groups:
+                errors.append(f"unknown group: {group!r}")
+            seen_groups.add(group)
 
     description = record["description"]
     if not description.strip():
