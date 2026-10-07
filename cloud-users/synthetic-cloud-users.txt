@@ -1,3 +1,4 @@
+Steve|Hager|Cloud Architect|gcp-logging-admins,gcp-logging-viewers|
 Phil|DeForm|CloudOps|gcp-logging-admins|
 Justin|Time|CloudOps|gcp-logging-viewers|
 Wanda|Raise|CloudOps|gcp-monitoring-admins|

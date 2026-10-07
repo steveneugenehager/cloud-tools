@@ -23,7 +23,7 @@ Warnings (reported, but don't fail validation):
 
 Change History
 2026-10-06 Steve Hager v1.0 Created to validate some hand-crafted synthetic data.
-2026-10-06 Steve Hager v1.1 Allow a comma-separated list of groups in the fourth field.
+2026-10-06 Steve Hager v1.1 Allow a comma-separated list of groups in the fourth field. 
 """
 
 import argparse
