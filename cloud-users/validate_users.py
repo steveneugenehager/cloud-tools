@@ -16,6 +16,9 @@ Warnings (reported, but don't fail validation):
   - empty description
   - empty group
   - unbalanced parentheses in the description
+
+Change History
+2026-10-06 Steve Hager v1.0 Created to validate some hand-crafted synthetic data.
 """
 
 import argparse
